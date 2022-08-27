@@ -37,7 +37,7 @@ export default function Realisations(props) {
                 <h3>{ fr ? "Création d'un site vitrine pour une psychologue libérale - HTML / CSS / JS" : "Creation of a showcase website for a liberal psychologist - HTML / CSS / JS"} </h3>
                 <br />
                 <div data-aos="fade-right" data-aos-id="super-duper">
-                    <a href="https://psychologue-durand.fr/" target="_blank"><img className="full_width" alt="site de psychologue libéral" src={psychologue} /></a>
+                    <a href="https://meltingpotes86.fr/" target="_blank"><img className="full_width" alt="site de psychologue libéral" src={psychologue} /></a>
                 </div>
                 <br />
                 <br />

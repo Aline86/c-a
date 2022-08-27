@@ -25,9 +25,34 @@ export default function Experience(props) {
                     <div className="margins">
                         <div className="header_page_exp">
                             <Carousel autoPlay = {true} dynamicHeight={false} interval={10000} showIndicators={false} infiniteLoop={true} showThumbs={false} transitionTime={1000} showStatus={false} showArrows={true} >
-                                <div className="col">
+                            <div className="col">
                                     <div className="first_exp">
                                         <div className="cadre">
+                                            <h4>EINDEN</h4>
+                                            <br />
+                                            <h3 className="title_exp">{fr ? "Août 2022 - aujourd'hui " : "August 2022 - Today : "}</h3>
+                                            <br />
+                                            <div className="bigger"><strong>{fr ? "Développeuse web" : "Web developer"}</strong><br /></div>                                           
+                                            <div className="bigger">{fr ? "Développeuse PHP, EcmaScript" : "PHP, EcmaScript developer"}, Poitiers</div>
+                                        </div>
+                                        <h4 >HOPLIE</h4>
+                                        <br />
+                                        <h3 className="title_exp">{ fr ? "Juin 2022 – Août 2022 : " : "June 2022 - August 2022" }</h3>
+                                        <br />
+                                        <div className="bigger"><strong>{fr ? "Développeuse web" : "Web developer"}</strong></div>
+                                        <div className="bigger">{fr ? "Développeuse Symfony" : "Symfony developer"}, Saint-Benoît</div>
+                                        <br />
+                                        <h4>AYALINE</h4>
+                                        <br />
+                                        <h3 className="title_exp">{ fr ? "Novembre 2021 – Mai 2022 : " : "November 2021 - May 2022 : "}</h3>
+                                        <br />
+                                        <div className="bigger"><strong>{fr ? "Développeuse web" : "Web developer"}</strong></div>
+                                        <div className="bigger">{fr ? "Développeuse React, Symfony" : "React, Symfony developer"}, Chasseneuil du Poitou</div>
+                                    </div>
+                                </div>
+                                <div className="col">
+                                    <div className="first_exp">
+                                        <div>
                                             <h4>ALTERNETIS</h4>
                                             <br />
                                             <h3 className="title_exp">{fr ? "Septembre 2020 - Septembre 2021 : " : "September 2020 - September 2021 : "}</h3>
